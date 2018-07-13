@@ -41,8 +41,8 @@ header {
 
 .box{
 
-  max-width:10px;
-  max-height: 10px;
+  max-width:25vw;
+  max-height: 25vh;
   margin-left: 9.5vw;
   margin-top:1em;
   z-index:3;

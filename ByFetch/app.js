@@ -16,9 +16,13 @@ let number3 =Math.floor((Math.random() * 5) );
 
 
 
+
+
 fetch(url)
 .then(function(req){
   req.json().then(function(data){
+    console.log(data.results[0].cover_art)
+
 
   photo1.src =`./images/${data.results[number1].cover_art}`;
   photo2.src =`./images/${data.results[number2].cover_art}`;
@@ -43,8 +47,8 @@ fetch(url)
     for(let i=0;i<data.results.length;i++){
     let newImg = document.createElement('img')
       newImg.src ="images/"+data.results[i].cover_art
-      newImg.style.width = '6vw';
-      newImg.style.height = '6hw';
+      newImg.style.width = '9vw';
+      newImg.style.height = '9hw';
       newImg.style.margin = '10px';
       newImg.id=  data.results[i].artist+": "+ data.results[i].title
       newImg.addEventListener('click', addTheName)

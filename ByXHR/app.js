@@ -14,7 +14,8 @@ let number1 =Math.floor((Math.random() * 5) );
 let number2 =Math.floor((Math.random() * 5) );
 let number3 =Math.floor((Math.random() * 5) );
 
-
+// alert('hi')
+// console.log('hi')
 const xhr = new XMLHttpRequest();
 
 xhr.open('GET', url, true);
@@ -22,11 +23,13 @@ xhr.open('GET', url, true);
 xhr.onload = function(){
   if(this.status === 200) {
     const data = JSON.parse(this.responseText);
+    console.log('hi')
+// console.log(`./images/${data.results[number1].cover_art}`)
 
-      photo1.src =`./images/${data.results[number1].cover_art}`;
-      photo2.src =`./images/${data.results[number2].cover_art}`;
-      photo3.src =`./images/${data.results[number3].cover_art}`;
-document.getElementById('customer').innerHTML = output;
+  photo1.src =`./images/${data.results[number1].cover_art}`;
+  photo2.src =`./images/${data.results[number2].cover_art}`;
+  photo3.src =`./images/${data.results[number3].cover_art}`;
+
   }
 }
 
@@ -48,8 +51,8 @@ xhr2.onload = function(){
     for(let i=0;i<data.results.length;i++){
     let newImg = document.createElement('img')
       newImg.src ="images/"+data.results[i].cover_art
-      newImg.style.width = '7vw';
-      newImg.style.height = '7hw';
+      newImg.style.width = '9vw';
+      newImg.style.height = '9hw';
       newImg.style.margin = '10px';
       newImg.id=  data.results[i].artist+": "+ data.results[i].title
       newImg.addEventListener('click', addTheName)
