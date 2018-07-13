@@ -24,8 +24,9 @@ header h2{
 
 
 .box{
-  width: 12em;
-  height: 10em;
+  filter:alpha(opacity=100);opacity:1;
+  /* width: 12em; */
+  /* height: 10em; */
   margin-left: 55px;
   margin-top:2em;
   z-index:10;

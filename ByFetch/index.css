@@ -25,11 +25,11 @@ header {
 }
 
 .rightPage{
-  background-image:url('https://raw.githubusercontent.com/gSchool/playlist/master/resources/track.jpg');
+  background-image:url('./resources/fadedTrack.jpg');
   height:100vw;
   width:55vw;
 
-  opacity: .19;
+  /* opacity: .19; */
   position: relative;
   z-index: -1;
   background-size: contain;

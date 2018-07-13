@@ -20,15 +20,10 @@ let number3 =Math.floor((Math.random() * 5) );
 
 fetch(url)
 .then(function(req){
-  req.json().then(function(data){
-    console.log(data.results[0].cover_art)
-
-
+  req.json().then((data)=>{
   photo1.src =`./images/${data.results[number1].cover_art}`;
   photo2.src =`./images/${data.results[number2].cover_art}`;
   photo3.src =`./images/${data.results[number3].cover_art}`;
-
-
   })
 })
 .catch(function(){
@@ -38,9 +33,7 @@ fetch(url)
 fetch(url)
 .then(function(req){
   req.json().then((data)=>{
-    // console.log('hi')
     function addTheName(){
-      // console.log(this.id)
     postData =document.querySelector(".intro").innerHTML +=`${this.id}<br>`
   }
 
@@ -64,7 +57,7 @@ cleanBtn.addEventListener("click", ()=>{
     });
 
 
-binBtn.addEventListener('click', function(){
+binBtn.addEventListener('click', ()=>{
   let httpRequest = new XMLHttpRequest()
   httpRequest.open('POST', url2, true);
   httpRequest.send(postData);

@@ -25,10 +25,10 @@ header {
 }
 
 .rightPage{
-  background-image:url('https://raw.githubusercontent.com/gSchool/playlist/master/resources/track.jpg');
+  background-image:url('./resources/fadedTrack.jpg');
   height:100vw;
   width:55vw;
-  opacity: 0.19;
+  /* opacity: 0.19; */
   /* position: relative; */
   z-index: -1;
   background-size: contain;
@@ -39,14 +39,15 @@ header {
   margin-left: 10vw;
 }
 
-.box{
-
+.box {
+  filter:alpha(opacity=100);opacity:1;
+  position: relative;
   max-width:25vw;
   max-height: 25vh;
   margin-left: 9.5vw;
   margin-top:1em;
-  z-index:3;
-  opacity: 1;
+  z-index:111;
+  /* opacity: 1; */
   /* background-color: : */
 }
 
