@@ -22,43 +22,49 @@ header h2{
     /* text-align: center; */
 }
 
+
 .box{
-  max-width: 270px;
-  max-height: 270px;
+  width: 12em;
+  height: 10em;
   margin-left: 55px;
   margin-top:2em;
   z-index:10;
   /* background-color: : */
 }
 .btnBox{
-  margin-top:10vh;
-  margin-right:60vw;
+  margin-top:4vh;
+  margin-left:15vw;
   /* ?? */
   /* margin-right:10vw; */
   margin-bottom: 20px;
 }
 
 .intro{
-  /* border-color: red; */
+  background-color: #EBEBEC;
+  /* border-color: #EBEBEC; */
   width:80vw;
   height:30vh;
   text-align: left;
-  /* margin-right:15vw; */
+  margin-left:15vw;
   border: solid;
 }
 
 
 .list{
-  margin: 0 auto;
+  margin-left: 13vw;
+  /* margin: 0 auto; */
   padding: 10px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  /background-color: red; */
+
    width: auto;
 }
 
-
+.copyRight{
+  margin-left: 15vw;
+  margin-top:1vh;
+}
 
 /* .list{
 

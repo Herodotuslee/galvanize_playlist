@@ -28,21 +28,24 @@ header {
   background-image:url('https://raw.githubusercontent.com/gSchool/playlist/master/resources/track.jpg');
   height:100vw;
   width:55vw;
-  opacity: 0.19;
-  /* position: relative; */
+
+  opacity: .19;
+  position: relative;
   z-index: -1;
   background-size: contain;
 
 }
 
 .box{
+  /* display:block; */
 
   max-width:25vh;
   max-height: 25vh;
   margin-left: 9.5vw;
   margin-top:1em;
-  z-index:3;
-  opacity: 1;
+  /* position:absolute; */
+  /* z-index:3; */
+  /* opacity: 30; */
   /* background-color: : */
 }
 

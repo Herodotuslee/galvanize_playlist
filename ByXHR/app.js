@@ -48,8 +48,8 @@ xhr2.onload = function(){
     for(let i=0;i<data.results.length;i++){
     let newImg = document.createElement('img')
       newImg.src ="images/"+data.results[i].cover_art
-      newImg.style.width = '9vw';
-      newImg.style.height = '9hw';
+      newImg.style.width = '7vw';
+      newImg.style.height = '7hw';
       newImg.style.margin = '10px';
       newImg.id=  data.results[i].artist+": "+ data.results[i].title
       newImg.addEventListener('click', addTheName)
