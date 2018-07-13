@@ -1,0 +1,79 @@
+header {
+  width: 100vw;
+  height: 25vh;
+  background: #9B9B8C;
+  padding-top:12vh ;
+  padding-left:3vw ;
+}
+
+header h2{
+  color:white
+  /* margin-top:3vh; */
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9B9B8C;
+    color: white;
+    margin-top: 3em;
+    /* text-align: center; */
+}
+
+.box{
+  max-width: 270px;
+  max-height: 270px;
+  margin-left: 55px;
+  margin-top:2em;
+  z-index:10;
+  /* background-color: : */
+}
+.btnBox{
+  margin-top:3vh;
+  margin-left:10vw;
+  /* margin-right:60vw; */
+  /* ?? */
+  /* margin-right:10vw; */
+  margin-bottom: 20px;
+}
+
+.intro{
+  background-color:#EBEBEC;
+  /* border-color: red; */
+  width:80vw;
+  height:30vh;
+  text-align: left;
+  margin-left:10vw;
+  border: solid;
+}
+
+
+.list{
+  margin: 0 auto;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* /background-color: red; */ */
+   width: auto;
+}
+
+.copyRight{
+  margin-left:10vw;
+  margin-top:1vh;
+}
+
+/* .list{
+
+  width: 100%;
+  height: 18vh;
+}
+.list{
+  overflow: scroll;
+  margin: 0 10% 0 17%;
+} */
+
+
+/*

@@ -1,0 +1,69 @@
+*{
+  margin:0px;
+}
+
+header {
+  width: 100vw;
+  height: 7vh;
+  background: #9B9B8C;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9B9B8C;
+    color: white;
+    /* text-align: center; */
+}
+
+.leftPage{
+    background-color: #EEEEEE;
+    width:45vw;
+    height:100vw;
+}
+
+.rightPage{
+  background-image:url('https://raw.githubusercontent.com/gSchool/playlist/master/resources/track.jpg');
+  height:100vw;
+  width:55vw;
+  opacity: 0.19;
+  /* position: relative; */
+  z-index: -1;
+  background-size: contain;
+
+}
+
+.box{
+
+  max-width:25vh;
+  max-height: 25vh;
+  margin-left: 9.5vw;
+  margin-top:1em;
+  z-index:3;
+  opacity: 1;
+  /* background-color: : */
+}
+
+
+.para{
+  position:absolute;
+  top:29vh;
+  left:23vw;
+  font-size: 3em;
+  color:purple;
+
+}
+.submitButton{
+  position:absolute;
+  left:24vw;
+  top:37vh;
+  margin-top:1em;
+}
+
+.copyRight{
+  font-size:1em;
+  margin-left:5vw;
+  color:white;
+}
