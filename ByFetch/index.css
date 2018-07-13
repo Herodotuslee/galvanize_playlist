@@ -15,7 +15,6 @@ header {
     width: 100%;
     background-color: #9B9B8C;
     color: white;
-    /* text-align: center; */
 }
 
 .leftPage{
@@ -28,25 +27,26 @@ header {
   background-image:url('./resources/fadedTrack.jpg');
   height:100vw;
   width:55vw;
-
-  /* opacity: .19; */
-  position: relative;
+  /* opacity: 0.19; */
+  /* position: relative; */
   z-index: -1;
   background-size: contain;
-  /* filter: alpha(opacity=19); */
 
 }
 
-.box{
-  /* display:block; */
+.intro{
+  margin-left: 10vw;
+}
 
-  max-width:25vh;
+.box {
+  filter:alpha(opacity=100);opacity:1;
+  position: relative;
+  max-width:25vw;
   max-height: 25vh;
   margin-left: 9.5vw;
   margin-top:1em;
-  /* position:absolute; */
-  /* z-index:3; */
-  /* opacity: 30; */
+  z-index:111;
+  /* opacity: 1; */
   /* background-color: : */
 }
 
@@ -61,14 +61,16 @@ header {
 }
 .submitButton{
   position:absolute;
-  left:24vw;
+  left:22.7vw;
   top:37vh;
+  width:12em;
+  height:3em;
   margin-top:1em;
 }
 
 .copyRight{
-  font-size:1em;
-  margin-top:1vh;
-  margin-left:12vw;
+  font-size:1.3em;
+  margin-left:5vw;
+  margin-top:1vw;
   color:white;
 }
