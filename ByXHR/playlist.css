@@ -2,12 +2,14 @@ header {
   width: 100vw;
   height: 25vh;
   background: #9B9B8C;
-  padding-top:12vh ;
+  padding-top:19vh ;
   padding-left:3vw ;
 }
 
 header h2{
-  color:white
+  color:white;
+  margin-left:8vw;
+  margin-bottom: 1vh;
 }
 
 .footer{
